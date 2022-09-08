@@ -1,0 +1,92 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 230px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngkCdhWsOtjcFwbOA0Q9aeM-S6XkYaEMGIw&usqp=CAU');
+    border-radius: 25px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.screen{
+    /* display: flex; */
+    height: 180px;
+    width: 214px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 14px;
+    background-color: white;
+}
+.buttons{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: hsl(240deg 100% 99%);
+    margin-top: 25px;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+}
+.menu, .playBack, .playFast, .playPause{
+    color: gray;
+    position: absolute;
+}
+.menu{
+    display: flex;
+    /* top: 10px; */
+}
+.playBack{
+    left: 10px;
+    top: 50px;
+}
+.playFast{
+    right: 10px;
+    top: 50px;
+}
+.playPause{
+    bottom: -2px;
+}
+.enter-btn{
+    margin: auto;
+    /* top: 50; */
+    /* position: absolute; */
+    height: 70px;
+    width: 70px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngkCdhWsOtjcFwbOA0Q9aeM-S6XkYaEMGIw&usqp=CAU');
+    border-radius: 50%;
+}
+
+
+
+.components{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.left-screen{
+    height: inherit;
+    width:100%;
+}
+.right-screen{
+    height: inherit;
+    width:100%;
+    background-image: url('https://media.istockphoto.com/photos/tree-on-grassy-field-against-cloudy-sky-picture-id649725910?b=1&k=20&m=649725910&s=170667a&w=0&h=JtmixFYdanHnY5Cio3LuN1wXsSp_y9napbDnLMkVyA8=');
+    background-size: 260%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 4px;
+}
+.cover-icon, .music-icon, .games-icon, .setting-icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
