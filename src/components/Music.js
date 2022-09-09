@@ -7,8 +7,8 @@ function Music (props){
         <div className='left-screen'>
         <h2>Music</h2>
 
-         { props.move==1?
-        <div className='cover-icon' style={{backgroundColor: 'skyblue'}}>
+         { props.move==1 || props.move==4?
+        <div className='cover-icon' style={{backgroundColor: 'skyblue', paddingLeft: '5px', paddingRight: '5px'}}>
         <div>
             All Songs
         </div>
@@ -24,7 +24,7 @@ function Music (props){
        
 
         {props.move==2?
-        <div className='music-icon' style={{backgroundColor: 'skyblue'}}>
+        <div className='music-icon' style={{backgroundColor: 'skyblue', paddingLeft: '5px', paddingRight: '5px'}}>
         <div>
            Artists
         </div>
@@ -39,7 +39,7 @@ function Music (props){
         }
 
         {props.move==3?
-        <div className='games-icon' style={{backgroundColor: 'skyblue'}}>
+        <div className='games-icon' style={{backgroundColor: 'skyblue', paddingLeft: '5px', paddingRight: '5px'}}>
         <div>
             Albums
         </div>

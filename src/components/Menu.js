@@ -9,7 +9,7 @@ import React from 'react';
         <h2>iPod.js</h2>
 
          { props.move==1?
-        <div className='cover-icon' style={{backgroundColor: 'skyblue'}}>
+        <div className='cover-icon' style={{backgroundColor: 'skyblue', paddingLeft: '5px', paddingRight: '5px'}}>
         <div>
             Cover Flow
         </div>
@@ -25,7 +25,7 @@ import React from 'react';
        
 
         {props.move==2?
-        <div className='music-icon' style={{backgroundColor: 'skyblue'}}>
+        <div className='music-icon' style={{backgroundColor: 'skyblue', paddingLeft: '5px', paddingRight: '5px'}}>
         <div>
             Music
         </div>
@@ -40,7 +40,7 @@ import React from 'react';
         }
 
         {props.move==3?
-        <div className='games-icon' style={{backgroundColor: 'skyblue'}}>
+        <div className='games-icon' style={{backgroundColor: 'skyblue', paddingLeft: '5px', paddingRight: '5px'}}>
         <div>
             Games
         </div>
@@ -56,7 +56,7 @@ import React from 'react';
 
         {props.move==4?
         
-        <div className='setting-icon' style={{backgroundColor: 'skyblue'}}>
+        <div className='setting-icon' style={{backgroundColor: 'skyblue', paddingLeft: '5px', paddingRight: '5px'}}>
         <div>
             Settings
         </div>

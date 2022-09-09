@@ -5,11 +5,14 @@
     /* text-align: center; */
   }
 
+
+  /* CSS for structure of Ipod */
+
 .container{
     display: flex;
     flex-direction: column;
     height: 420px;
-    width: 230px;
+    width: 270px;
     background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngkCdhWsOtjcFwbOA0Q9aeM-S6XkYaEMGIw&usqp=CAU');
     border-radius: 25px;
     /* justify-content: center; */
@@ -18,7 +21,7 @@
 .screen{
     /* display: flex; */
     height: 180px;
-    width: 214px;
+    width: 250px;
     border: 3px solid black;
     border-radius: 10px;
     margin-top: 14px;
@@ -34,10 +37,12 @@
     /* align-items: center; */
     justify-content: center;
     position: relative;
+    
 }
 .menu, .playBack, .playFast, .playPause{
     color: gray;
     position: absolute;
+    cursor: pointer;
 }
 .menu{
     display: flex;
@@ -62,10 +67,11 @@
     width: 70px;
     background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngkCdhWsOtjcFwbOA0Q9aeM-S6XkYaEMGIw&usqp=CAU');
     border-radius: 50%;
+    cursor: pointer;
 }
 
 
-
+/* CSS for screen */
 .components{
     display: flex;
     height: 100%;
@@ -73,7 +79,9 @@
 }
 .left-screen{
     height: inherit;
-    width:100%;
+    width:90%;
+    margin-left: 8px;
+    margin-right: 5px;
 }
 .right-screen{
     height: inherit;

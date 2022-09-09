@@ -2,13 +2,16 @@ import React from 'react';
 
 function Coverflow (){
     return(
-        <div className='coverContainer' style={styles.coverContainer} >
+        <div style={styles.coverContainer} >
             Cover Flow
         </div>
     )
 }
 
 export default Coverflow;
+
+
+// CSS for Coverflow
 
     const styles ={
         coverContainer:{

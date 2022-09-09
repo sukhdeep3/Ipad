@@ -2,8 +2,9 @@ import React from 'react';
 
 function Games (){
     return(
-        <div>
+        <div style={styles.container}>
             <img className='image' style={styles.image} alt="game" src="https://www.collinsdictionary.com/images/full/dice_393025615_1000.jpg" />
+        Games
         </div>
     )
 }
@@ -11,10 +12,17 @@ function Games (){
 export default Games;
 
 const styles ={
-    image:{
+    container:{
         height: '100%',
-        width: 150,
+        width: '100%',
         borderRadius: '10px',
-        backgroundSize:"20%"
+        display: 'flex',
+        flexDirection:'column',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    image:{
+        height: 100,
+        width: 100
     }
 }
