@@ -2,7 +2,7 @@ import React from 'react';
 
 
 function songs (){
-    console.log("Hello");
+    // console.log("Hello");
     return(
         <div style={styles.fullContainer} >
             <div style={styles.upperContainer}>
