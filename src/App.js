@@ -81,7 +81,7 @@ class App extends React.Component {
 
   onEnter = () => {
     if (this.state.menu) {
-      if (this.state.move == 1) {
+      if (this.state.move === 1) {
         this.setState({
           menu: false,
           cover: true,
@@ -90,7 +90,7 @@ class App extends React.Component {
           settings: false,
         });
       }
-      if (this.state.move == 2) {
+      if (this.state.move === 2) {
         this.setState({
           menu: false,
           cover: false,
@@ -99,7 +99,7 @@ class App extends React.Component {
           settings: false,
         });
       }
-      if (this.state.move == 3) {
+      if (this.state.move === 3) {
         this.setState({
           menu: false,
           cover: false,
@@ -108,7 +108,7 @@ class App extends React.Component {
           settings: false,
         });
       }
-      if (this.state.move == 4) {
+      if (this.state.move === 4) {
         this.setState({
           menu: false,
           cover: false,
@@ -118,7 +118,7 @@ class App extends React.Component {
         });
       }
     } else if (this.state.music) {
-      if (this.state.move == 1) {
+      if (this.state.move === 1) {
         this.setState({
           menu: false,
           songs: true,
@@ -126,7 +126,7 @@ class App extends React.Component {
           album: false,
         });
       }
-      if (this.state.move == 2) {
+      if (this.state.move === 2) {
         this.setState({
           menu: false,
           songs: false,
@@ -134,7 +134,7 @@ class App extends React.Component {
           album: false,
         });
       }
-      if (this.state.move == 3) {
+      if (this.state.move === 3) {
         this.setState({
           menu: false,
           songs: false,
